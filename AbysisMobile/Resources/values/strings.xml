@@ -1,0 +1,53 @@
+<resources>
+  <string name="app_name">AbysisMobile</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="action_settings">Settings</string>
+  <string name="Login">Giriş</string>
+  <string name="Username">Kullanıcı Adı</string>
+  <string name="Password">Parola</string>
+  <string name="BeginDate">Başlangıç Tarihi</string>
+  <string name="AskClose">Program Kapatılsın mı?</string>
+  <string name="Close">Kapat</string>
+  <string name="Cancel">İptal</string>
+  <string name="FirmGroup">Firma Grubu</string>
+  <string name="SubscriberNo">Abone No</string>
+  <string name="SubscriberType">Abone Tipi</string>
+  <string name="TariffType">Tarife Tipi</string>
+  <string name="DeviceCode">Sayaç No</string>
+  <string name="ContractForce">Sözleşme Gücü</string>
+  <string name="FirstReadDate">İlk Okuma Tarihi</string>
+  <string name="LastReadDate">Son Okuma Tarihi</string>
+  <string name="Meters">Sayaçlar</string>
+  <string name="MeterSummary">Sayaç Özet</string>
+  <string name="PTF">PTF (Piyasa Takas Fiyatı)</string>
+  <string name="SideServices">Yan Servisler</string>
+  <string name="BetweenDate">Tarih Aralığı</string>
+  <string name="EndDate">Bitiş Tarihi</string>
+  <string name="IndexSelection">Endeks Seçimi</string>
+  <string name="Query">Sorgula</string>
+  <string name="MeterQuery">Sayaç Sorgu</string>
+  <string name="ChangePassword">Parola Değiştir</string>
+  <string name="Exit">Çıkış Yap</string>
+  <string name="PreviousDay">Önceki Gün</string>
+  <string name="Today">Bugün</string>
+  <string name="NextDay">Sonraki Gün</string>
+  <string name="ChooseDate">Tarih Seç</string>
+  <string name="UserOperations">Kullanıcı İşlemleri</string>
+  <string name="PeriodSelection">Dönem Seçimi</string>
+  <string name="ConsGraphFixed">Tüketim Grafiği</string>
+  <string name="ConsGraphFixedYear">Yıllara Göre Tüketim Grafiği</string>
+  <string name="VoltageGraph">Voltaj Grafiği</string>
+  <string name="Clear">Temizle</string>
+  <string name="Add">Ekle</string>
+  <string name="CompanyInfo">Firma Bilgileri</string>
+  <string name="SubTotal">Satışlar Toplamı:</string>
+  <string name="FundTotal">Fonlar/Vergiler Toplamı:</string>
+  <string name="RaiseAmount">Gecikme Zammı:</string>
+  <string name="InvoiceTotal">Fatura Tutarı:</string>
+  <string name="WaitingServiceAnswer">Servisten cevap bekleniyor...</string>
+  <string name="PreesAnInvoiceToOpen">Fatura bilgisini açmak için basılı tutunuz...</string>
+  <string name="RememberME">Beni Hatrıla</string>
+
+
+</resources>

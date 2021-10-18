@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="1dp"
+    android:minHeight="25px"
+    android:minWidth="25px"
+    android:weightSum="100">
+	<TextView
+		android:id="@+id/tvLabel2"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="7"
+		android:gravity="center_horizontal" />
+	<Com.Syncfusion.Gauges.SfCircularGauge.SfCircularGauge
+		android:minWidth="400px"
+		android:minHeight="400px"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="72"
+		android:id="@+id/meterLineGauge" />
+	<TextView
+		android:id="@+id/tvLabel3"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="7"
+		android:gravity="center_horizontal"/>
+	<TextView
+		android:id="@+id/tvLabel4"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="7"
+		android:gravity="center_horizontal"/>
+	<TextView
+		android:id="@+id/tvLabel5"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="7"
+		android:gravity="center_horizontal"/>
+</LinearLayout>

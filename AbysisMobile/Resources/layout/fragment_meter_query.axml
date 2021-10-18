@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="100">
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="30"
+			android:text="@string/BetweenDate" />
+		<Button
+			android:id="@+id/btnQueryDate1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="35"
+			android:text="2018-02-01"
+			style="@style/Widget.AppCompat.Button.Borderless" />
+		<Button
+			android:id="@+id/btnQueryDate2"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="35"
+			android:text="2018-02-03"
+			style="@style/Widget.AppCompat.Button.Borderless" />
+
+	</LinearLayout>
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="100">
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="30"
+			android:text="@string/IndexSelection" />
+		<Spinner 
+			style="@style/MatchSpinnerTheme"
+			android:id="@+id/spnQueryIndexes"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="70" />
+	</LinearLayout>
+	<Button
+		android:id="@+id/btnMQuery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/Query" />
+	<Syncfusion.SfDataGrid.SfDataGrid
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/sfDGMQindices" />
+</LinearLayout>

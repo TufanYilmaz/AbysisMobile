@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:weightSum="100">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="0dp"
+		android:layout_weight="50"
+		android:weightSum="5">
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:text="@string/SubTotal"
+			android:textSize="20dp" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:text="@string/FundTotal"
+			android:textSize="20dp" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:text="@string/RaiseAmount"
+			android:textSize="20dp" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:id="@+id/tvInvoiceKDVLabel"
+			android:text="%18 KDV:"
+			android:textSize="20dp" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:text="@string/InvoiceTotal"
+			android:textSize="20dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="0dp"
+		android:layout_weight="50"
+		android:layout_marginRight="10dp"
+		android:weightSum="5">
+		<TextView
+			android:id="@+id/tvInvoiceSubTotal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:textSize="20dp" />
+		<TextView
+			android:id="@+id/tvInvoiceFundTotal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:textSize="20dp" />
+		<TextView
+			android:id="@+id/tvInvoiceRaiceAmount"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:textSize="20dp" />
+		<TextView
+			android:id="@+id/tvInvoiceVatListValue"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:textSize="20dp" />
+		<TextView
+			android:id="@+id/tvInvoiceTotal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="center_vertical|right"
+			android:layout_weight="1"
+			android:textSize="20dp" />
+	</LinearLayout>
+</LinearLayout>
